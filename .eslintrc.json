@@ -1,0 +1,15 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "@typescript-eslint/consistent-type-imports": "error",
+    "react/display-name": 0,
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "warn"
+  }
+}
